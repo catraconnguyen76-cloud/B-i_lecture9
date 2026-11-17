@@ -151,7 +151,7 @@ private fun StudentDialog(student: Student?, onDismiss: () -> Unit, onSave: (Stu
                     else -> null
                 }
                 if (valid) {
-                    onSave(Student(student?.id ?: 0, name.trim(), code.trim(), email.trim(), gpa!!))
+                    onSave(Student(student?.id ?: 0, name.trim(), code.trim(), email.trim(), gpa))
                 }
             }) { Text("Lưu") }
         },
