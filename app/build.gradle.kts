@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.test"
+        applicationId = "com.example.studentmvvm"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
